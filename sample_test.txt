@@ -1,1 +1,22 @@
 sample1
+
+
+CREATE TABLE todo (
+    id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT, 
+    title VARCHAR(255) NOT NULL, 
+    name VARCHAR(100) NOT NULL,
+    sequence INT(1) NOT NULL, 
+    type VARCHAR(20) DEFAULT 'TODO', 
+    PRIMARY KEY (id) 
+    );
+
+
+
+    INSERT into todo (title, name, sequence) values ("sql공부", "yong", "1");
+
+    INSERT into todo (title, name, sequence) values ("πετροσ", "반석", "2");
+
+
+    INSERT into todo (title, name, sequence) values ("בְּרֵאשִׁ֖ית", "태초에", "3");
+
+    INSERT into todo (title, name, sequence) values ("ἐστιν", "이다, 존재하다", "4");
