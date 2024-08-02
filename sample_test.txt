@@ -20,3 +20,24 @@ CREATE TABLE todo (
     INSERT into todo (title, name, sequence) values ("בְּרֵאשִׁ֖ית", "태초에", "3");
 
     INSERT into todo (title, name, sequence) values ("ἐστιν", "이다, 존재하다", "4");
+
+
+
+==========================
+
+CREATE TABLE winterwords1 (
+    id BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT, 
+    title VARCHAR(255) NOT NULL, 
+    name VARCHAR(100) NOT NULL,
+    sequence INT(1) NOT NULL,
+    chapter INT(1) NOT NULL, 
+    type VARCHAR(20) DEFAULT 'TODO', 
+    PRIMARY KEY (id) 
+    );
+
+// flush privileges;
+// select * from winterwords1;
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πετροσ", "반석", "101", "2");
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("בְּרֵאשִׁ֖ית", "태초에", "201", "3");
