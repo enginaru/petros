@@ -10,13 +10,10 @@
 </head>
 <body>
 
-    <h2> test...</h2>
-    <p>{{stuff}}</p>
 
    
 <div class="container">
-    <h2>Bible Greek Word List</h2>
-    <button id = "test_btn" class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">Hide Toggle</button>
+    <h2>Bible Greek Word ch2 </h2>
     <table class="table table-striped" id="mytable">
         <thead>
         <tr>
@@ -28,6 +25,7 @@
         </thead>
         <tbody>
         {{#each results}}
+	    {{#compare chapter '=='2 }}
             <tr>
                 <td>{{ id }}</td>
                 <td>{{ title }}</td>
@@ -35,11 +33,12 @@
 
                 <td>
                     <a href="javascript:void(0);" class="btn btn-sm btn-info edit" data-id="{{ product_id }}"
-                       data-product_name="{{ product_name }}" data-product_price="{{ product_price }}">Edit</a>
+                       data-product_name="{{ product_name }}" data-product_price="{{ product_price }}">NOP1</a>
                     <a href="javascript:void(0);" class="btn btn-sm btn-danger delete"
-                       data-id="{{ product_id }}">Delete</a>
+                       data-id="{{ product_id }}">NOP2</a>
                 </td>
             </tr>
+	    {{/compare}}
 
         {{/each}}
         </tbody>

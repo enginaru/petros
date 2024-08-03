@@ -87,12 +87,62 @@ app.get('/product_view', function(req, res){
   let sql = "SELECT * FROM winterwords1";
   let query = connection.query(sql, (err, results) => {
       if (err) throw err;
-     // res.render('product_view', {
-     //     results: results,
-     //     stuff : stuff
-     // });
+      res.render('product_view', {
+          results: results,
+          stuff : stuff
+      });
   });
 }) 
+
+// greek_ch2
+app.get('/Greek_ch2', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch2', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch3
+app.get('/Greek_ch3', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch3', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+hbs.registerHelper('compare', function (v1, operator, v2, options) {
+  'use strict';
+  var operators = {
+    '==': v1 == v2 ? true : false,
+    '===': v1 === v2 ? true : false,
+    '!=': v1 != v2 ? true : false,
+    '!==': v1 !== v2 ? true : false,
+    '>': v1 > v2 ? true : false,
+    '>=': v1 >= v2 ? true : false,
+    '<': v1 < v2 ? true : false,
+    '<=': v1 <= v2 ? true : false,
+    '||': v1 || v2 ? true : false,
+    '&&': v1 && v2 ? true : false
+  }
+  if (operators.hasOwnProperty(operator)) {
+    if (operators[operator]) {
+      return options.fn(this);
+    }
+    return options.inverse(this);
+  }
+  return console.error('Error: Expression "' + operator + '" not found');
+});
 
 // app.get("/abd", (req, res) => {
 //   //res.sendFile(path.join(__dirname, 'views/list.html'))
