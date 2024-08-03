@@ -120,6 +120,313 @@ app.get('/Greek_ch3', function(req, res){
   });
 })
 
+// greek_ch4
+app.get('/Greek_ch4', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch4', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch5
+app.get('/Greek_ch5', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch5', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch6
+app.get('/Greek_ch6', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch6', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch7
+app.get('/Greek_ch7', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch7', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch8
+app.get('/Greek_ch8', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch8', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch9
+app.get('/Greek_ch9', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch9', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch10
+app.get('/Greek_ch10', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch10', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch11
+app.get('/Greek_ch11', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch11', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch12
+app.get('/Greek_ch12', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch12', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch13
+app.get('/Greek_ch13', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch4', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch14
+app.get('/Greek_ch14', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch14', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch15
+app.get('/Greek_ch15', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch15', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch16
+app.get('/Greek_ch16', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch16', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch17
+app.get('/Greek_ch17', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch17', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch18
+app.get('/Greek_ch18', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch18', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch19
+app.get('/Greek_ch19', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch19', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+
+// greek_ch20
+app.get('/Greek_ch20', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch20', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// greek_ch21
+app.get('/Greek_ch21', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch21', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+// greek_ch22
+app.get('/Greek_ch22', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch22', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+// greek_ch23
+app.get('/Greek_ch23', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch23', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+// greek_ch24
+app.get('/Greek_ch24', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch24', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+// greek_ch25
+app.get('/Greek_ch25', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch25', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+// greek_ch26
+app.get('/Greek_ch26', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Greek_ch26', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
 
 hbs.registerHelper('compare', function (v1, operator, v2, options) {
   'use strict';

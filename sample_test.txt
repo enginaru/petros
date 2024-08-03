@@ -10,8 +10,6 @@ CREATE TABLE todo (
     PRIMARY KEY (id) 
     );
 
-
-
     INSERT into todo (title, name, sequence) values ("sql공부", "yong", "1");
 
     INSERT into todo (title, name, sequence) values ("πετροσ", "반석", "2");
@@ -20,8 +18,6 @@ CREATE TABLE todo (
     INSERT into todo (title, name, sequence) values ("בְּרֵאשִׁ֖ית", "태초에", "3");
 
     INSERT into todo (title, name, sequence) values ("ἐστιν", "이다, 존재하다", "4");
-
-
 
 ==========================
 
@@ -41,3 +37,413 @@ CREATE TABLE winterwords1 (
 INSERT into winterwords1 (title, name, sequence, chapter) values ("πετροσ", "반석", "101", "2");
 
 INSERT into winterwords1 (title, name, sequence, chapter) values ("בְּרֵאשִׁ֖ית", "태초에", "201", "3");
+
+
+===============
+// 성경헬라어 단어 DB
+// Greek_ch2
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ακους", "듣다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("βαπτιζω", "세례주다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("βλεπω", "보다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γινωσκω", "알다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ευρισκω", "찾다, 발견하다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λαμβανω", "취하다, 영접하다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λεγω", "말하다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λυω", "(사람)풀다, (건물)파괴하다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μενω", "머물다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πιστευω", "믿다", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("και", "그리고", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αμην", "진실로", "101", "2");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("που", "어디에", "101", "2");
+
+// Greek_ch3
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αποστελλω", "보내다", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("διδασκω", "가르치다", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εχω", "가지다, 소유하다", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υπαγω", "가다, 떠나다", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγγελοσ", "천사", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ανθρωπος", "사람", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δουλος", "종", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θεος", "하나님", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κυριος", "주님, 주인", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("νομος", "율법", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υιος", "아들", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οδος", "길", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ερημος", "광야", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τεκνον", "아이, 자녀", "101", "3");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ω", "오~", "101", "3");
+
+
+
+// Greek_ch4
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγαπη", "사랑", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αρχη", "시작", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δοξα", "영광", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εκκλησια", "교회", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξουδια", "권세", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ζωη", "생명", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καρδια", "마음, 심장", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μαθητης", "제자", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προφητης", "선지자, 예언자", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ευαγγελιον", "복음", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σαββατον", "안식일", "101", "4");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ο, η, το", "그", "101", "4");
+
+
+// Greek_ch5
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εγειρω", "일으키다, 살리다", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ειμι", "내가 ~이다, 있다", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εκβαλλω", "내어놓다, 내쫓다", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κρινω", "판단하다, 심판하다", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εντολη", "계명", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ναος", "성전, 성소", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("φωνη", "소리, 음성", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγαθος", "선한", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγιος", "거룩한", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αλλος", "다른", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εσχατος", "마지막의", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ετερος", "다른, 상이한", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μακαριος", "복된, 행복한", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("νεκρος", "죽은", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πονηρος", "악한", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πρωτος", "처음의, 첫 번째", "101", "5");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πτωχος", "가난한", "101", "5");
+
+// Greek_ch6
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αληθεια", "진리", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αρτος", "빵", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιησους", "예수님", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιωαννης", "요한", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κοσμος", "세상", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Χαρα", "기쁨", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Χριστος", "그리스도", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πιστος", "신실한, 믿음직한", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αυτος", "그가, 그녀가, 그것이", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εγω", "내가", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ημεις", "우리가", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("συ", "네가", "101", "6");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υμεις", "너희가", "101", "6");
+
+// Greek_ch7
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αναβαινω", "(위로) 올라가다", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καταβαινω", "(아래로) 내려가다", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("διδασκαλος", "선생", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οικια", "집", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουρανος", "하늘", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προσωπον", "얼굴, 안색", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εις", "(+목) 안으로, ~을 위하여", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εκ (εξ)", "(+소) 밖으로, ~로부터", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εν", "(+여) 안에", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("επι", "(+소, 여, 목) 위에, 곁에, 앞에서", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μετα", "(+소) 함께, (+목) 후에", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προς", "(+소, 여, 목) ~에게로", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προ", "(+소) ~앞에, ~전에", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουτος, αυτη, τουτο", "이 (this)", "101", "7");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εκεινος, εκεινη, εκεινο", "저 (that)", "101", "7");
+
+
+// Greek_ch8
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγιαζω", "거룩하게 하다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γινομαι", "되다, 발생하다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εισπορευομαι", "들어가다(오다)", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ερχομαι", "오다, 가다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καθαριζω", "깨끗하게 하다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παραγω", "지나가다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πορευομαι", "가다, 오다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υποτασσω", "복종시키다", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δαιμονιον", "귀신(악령, 더러운 영)", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("επιθυμια", "욕망, 욕구", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λογος", "말, 말씀", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λεπρος", "한센병자의", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δια", "(+소) ~을 통하여, (+목) ~때문에", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υπο", "(+소) ~에 의해, (+목) 아래", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σημερον", "오늘", "101", "8");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πως", "어떻게", "101", "8");
+
+
+// Greek_ch9
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δοξαζω", "영화롭게 하다, 찬양하다", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("χαιρω", "기뻐하다", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αδελφος", "형제", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("βασιλεια", "나라, 왕국", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("διδαχη", "교훈", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ιερον", "성전", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παραβολη", "비유", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Πετρος", "베드로", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προσευχη", "기도", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("συναγωγη", "회당", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ωρα", "시간", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αλλα", "그러나", "101", "9");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουτως", "이와 같이", "101", "9");
+
+
+// Greek_ch10
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγω", "인도하다, 이끌다", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξερχομαι", "밖으로 나가다", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ημην", "ειμι의 미완료 과거", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Δαμασκος", "다메섹", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιορδανης", "요단", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προταμος", "강", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σημειον", "표적", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("συν", "(+여) ~와 함께", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δε", "그러나, 그런데", "101", "10");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουδε", "아니, ~도 아니", "101", "10");
+
+
+// Greek_ch11
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εσομαι", "ειμι의 미래", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κυριευω", "주관하다, 지배하다", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προφητευω", "예언하다", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ρυομαι", "구출하다, 건져내다", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σωζω", "구원하다", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αμαρτια", "죄", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ειρηνη", "평강, 평화", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εργον", "일, 행위", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ημερα", "날, 낮", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λαος", "백성", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παρουσια", "재림, 임함", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("στεφανος", "면류관", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καθαρος", "깨끗한, 정결한, 순수한", "101", "11");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οτι", "왜냐하면(because), ~한 바(that)", "101", "11");
+
+
+// Greek_ch12
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αποθνησκω", "죽다", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δεχομαι", "영접하다", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("διωκω", "박해(핍박)하다", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θεραπευω", "치료하다", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γραφη", "성경", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δικαιοσυνη", "의", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οφθαλμος", "눈", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σωτηριον", "구원", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κατα", "(+소) ~을 대항하여, 아래로 (+목) ~을 따라", "101", "12");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υπερ", "(+소) ~을 위하여, 대신하여 (+목) ~위에", "101", "12");
+
+
+// Greek_ch13
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αποκρινομαι", "대답하다", "101", "13");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καλεω", "부르다", "101", "13");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γυνη", "여자", "101", "13");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οργη", "진노", "101", "13");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("φυλακη", "감옥", "101", "13");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σατανας", "사탄", "101", "13");
+
+
+// Greek_ch14
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θαυμαζω", "놀라다", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ετοιμαζω", "예비(준비)하다", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αιων", "세대, 영원", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αρχων", "관원, 통치자", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ελεπις", "소망", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κοινωνια", "교제, 교통", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πιστις", "믿음", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πολος", "도시, 성", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σαρξ", "육신, 육체", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("χαρις", "은혜", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πασχα", "유월절", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πνευμα", "영,성령, 바람", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ρημα", "말", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σωμα", "몸", "101", "14");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("φως", "빛, 불", "101", "14");
+
+
+// Greek_ch15
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αιρω", "치워버리다, 없애다", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αμνος", "어린 양", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μισθος", "삯, 상", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ονομα", "이름", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αιωνιος", "영원한", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("επαυριον", "내일", "101", "15");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ιδε", "보라!", "101", "15");
+
+
+// Greek_ch16
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αναβλεπω", "우러러보다, 시력을 회복하다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ανοιγω", "열다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πεμπω", "보내다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προσερχομαι", "~에게로 가다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κατεχω", "든든히 지키다, 꽉 잡다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("στεναζω", "탄식하다", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θελημα", "뜻", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παιδιον", "아이", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("στομα", "입", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εμος", "나의, 나에게 속한(소유형용사)", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καλος", "좋은, 착한", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τυφλος", "눈먼", "101", "16");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουν", "그러므로, 따라서(후치사)", "101", "16");
+
+
+// Greek_ch17
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ανεβην", "올라갔다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("απολυω", "풀어놓다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ηγερθην", "일으켜졌다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καθιζω", "앉다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σπειρω", "씨를 뿌리다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("συναγω", "모으다", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γη", "땅", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θανατος", "죽음", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Σαδδουκαιος", "사두개인", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("στασις", "다툼, 폭동", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Φαρισαιος", "바리새인", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("υδωρ", "물", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ιδιος", "(그) 자신의", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ευθυς", "곧, 즉시", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουκετι", "이제는 아니, 더 이상 아니", "101", "17");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παρα", "(+소) ~로부터, (+여, 목) ~곁(옆)에", "101", "17");
+
+
+// Greek_ch18
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αρχομαι", "시작하다", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("βαλλω", "던지다", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δει", "~해야한다. ~이 필요하다(비인칭동사)", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξεστιν", "~이 합당하다(비인칭동사)", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μελλω", "~하려고 한다", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προαγω", "먼저(앞서) 가다", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αναστασις", "부활", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("θαλασσα", "호수", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τελος", "끝, 마침", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τοπος", "장소, 처소", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παλιν", "다시", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ωδς", "여기", "101", "18");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γαρ", "왜냐하면", "101", "18");
+
+
+// Greek_ch19
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγαπαω", "사랑하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δικαιοω", "의롭다고 인정하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("λαλεω", "말하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μαρτυρεω", "증언하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μισεω", "미워하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ομολογεω", "고백하다, 자백하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οφειλω", "~해야 한다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ποιεω", "행하다, 만들다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("περιπατεω", "걷아, 생활하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("φιλεω", "사랑하다", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πατερ", "아버지", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σκοτια", "어두움", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καθως", "~처럼, ~와 같이", "101", "19");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("περι", "(+소) ~에 관하여, (+목) 주위에", "101", "19");
+
+
+// Greek_ch20
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αποκτεινω", "죽이다", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αποστολος", "사도", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αμτελων", "포도원", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γλωσσα", "혀, 언어, 방언", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σπερμα", "씨, 자손", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καινος", "새로운(new)", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξω", "(+소) 밖에", "101", "20");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουχι", "아니(not)", "101", "20");
+
+
+// Greek_ch21
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ακολουθεω", "따르다(follow)", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξω", "εχω의 미래", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ζαω", "살다", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αιμα", "피", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αγαπητος", "사랑하는", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("κενος", "빈, 헛되", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καν", "비록 ~한다 해도", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εαν + 가정법", "만일 ~한다면(미래조건)", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ει + 직설법", "만일 ~인 것이 사실이라면(실제조건)", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ινα + 가정법", "~하기 위하여(목적), 그래서(결과)", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ου μη + 가정법", "결코 ~하지 못할 것이다", "101", "21");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αλληλων", "서로의, 서로에게, 서로를", "101", "21");
+
+
+// Greek_ch22
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ελεεω", "불쌍히 여기다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εσθιω", "먹다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ζητεω", "구하다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("καταλυω", "파괴하다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("νομιζω", "생각하다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προσευχομαι", "기도하다", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Δαυιδ", "다윗", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οικος", "집", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("σκοτος", "어두움", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δη", "그러므로, 그런즉", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("νυν", "지금, 이제", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ποτε", "전에, 그때는", "101", "22");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ως", "~처럼", "101", "22");
+
+
+// Greek_ch23
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αρνεομαι", "부인하다", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εισελευσομαι", "ερχομαι의 미래 직설법 1인칭 단수", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ανθρωποκτονος", "살인자", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Βαρναβας", "바나바", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Βασιλευς", "왕", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εθνος", "이방인", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Εμμανουηλ", "임마누엘", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Παυλος", "바울", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιουδαιος", "유대인의", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("πας, πασα, παμ", "모든, ~마다", "101", "23");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ος, η, ο", "~한 사람/ 것", "101", "23");
+
+
+// Greek_ch24
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("οικοδομεω", "세우다, 건축하다", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("παραλαμβανω", "취하다, 영접하다", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ετος", "해, 년", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ζεβεδαιος", "세베대", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ηλιας", "엘리야", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιακωβος", "야고보", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Ιεριχω", "여리고", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("μεδεις, μεδεμια, μεδεν", "아무(것)도~아닌(직설법 이외의 법에서)", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ουδεις, ουδεμια, ουδεν", "아무(것)도~아닌(직설법에서)", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τις, τι", "어떤 사람(someone), 어떤 것(something)", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τις, τι", "누구(who), 무엇(what), 왜(why)", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εις, μια, εν", "1, 일, 하나", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δυο, δυσι", "2, 둘", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τρεις, τρια", "3, 삼, 셋", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξ", "6, 육, 여섯", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τεσσερακοντα", "40, 사십", "101", "24");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ει μη", "~외에는, ~을 제외하고는", "101", "24");
+
+
+// Greek_ch25
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αμαρτανω", "죄를 짓다", "101", "25");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("γενναω", "낳다", "101", "25");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("Πιλατος", "빌라도", "101", "25");
+
+
+// Greek_ch26
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("αφιημι", "용서하다, 허락하다", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("απολλυμι", "멸망시키다", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("δεικνυμι", "보이다", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("διδωμι", "주다", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("τιθημι", "놓다", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("εξουσια", "권세", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ποιμην", "목자", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("προΒατον", "양", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("χειρ", "손", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("επιουσιος", "하루의, 오늘(내일)을 위한, 생존을 위한", "101", "26");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ωστε", "~한 결과", "101", "26");
+
+
+
