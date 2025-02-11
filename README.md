@@ -1,6 +1,16 @@
 # petros
 반석웹 제작용 깃허브
 
+===============
+git 관련: https://github.com/enginaru/petros
+
+git status
+git commit -m "커밋관련 코멘트"
+git log
+git add .
+git push origin main
+
+
 ================
 
 mysql 관련 : 
