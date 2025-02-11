@@ -4,11 +4,11 @@
 ===============
 git 관련: https://github.com/enginaru/petros
 
-git status
-git commit -m "커밋관련 코멘트"
-git log
-git add .
-git push origin main
+git status //
+git commit -m "커밋관련 코멘트" //
+git log //
+git add . //
+git push origin main //
 
 
 ================
