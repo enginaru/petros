@@ -13,14 +13,13 @@
 
    
 <div class="container">
-    <h2>Bible Greek Word ch9 </h2>
+    <h2>성경헬라어(한천설) ch9 단어 </h2>
     <table class="table table-striped" id="mytable">
         <thead>
         <tr>
             <th>ID</th>
             <th>title</th>
             <th>name</th>
-            <th>Etc</th>
         </tr>
         </thead>
         <tbody>
@@ -30,19 +29,35 @@
                 <td>{{ id }}</td>
                 <td>{{ title }}</td>
                 <td>{{ name }}</td>
-
-                <td>
-                    <a href="javascript:void(0);" class="btn btn-sm btn-info edit" data-id="{{ product_id }}"
-                       data-product_name="{{ product_name }}" data-product_price="{{ product_price }}">NOP1</a>
-                    <a href="javascript:void(0);" class="btn btn-sm btn-danger delete"
-                       data-id="{{ product_id }}">NOP2</a>
-                </td>
             </tr>
 	    {{/compare}}
 
         {{/each}}
         </tbody>
     </table>
+
+<h3>단어확인</h3>
+
+    <table class="table table-striped" id="mytable2" style="display: block;">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>title</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each results}}
+	    {{#compare chapter '=='9 }}
+            <tr>
+                <td>{{ id }}</td>
+                <td>{{ title }}</td>
+            </tr>
+	    {{/compare}}
+
+        {{/each}}
+        </tbody>
+    </table>
+
 </div> 
 
 
