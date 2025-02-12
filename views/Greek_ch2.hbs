@@ -14,7 +14,7 @@
    
 <div class="container">
     <h2>성경헬라어(한천설) ch2 단어</h2>
-    <button id="checkCH2">checkCH2</button>
+    <button id="checkWords">단어체크</button>
     <table class="table table-striped" id="mytable">
         <thead>
         <tr>
@@ -36,6 +36,30 @@
         {{/each}}
         </tbody>
     </table>
+
+    <h3>단어확인</h3>
+
+    <table class="table table-striped" id="mytable2" style="display: block;">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>title</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each results}}
+	    {{#compare chapter '=='2 }}
+            <tr>
+                <td>{{ id }}</td>
+                <td>{{ title }}</td>
+            </tr>
+	    {{/compare}}
+
+        {{/each}}
+        </tbody>
+    </table>
+
+
 </div> 
 
 
@@ -43,6 +67,7 @@
 <script src="../public/js/bootstrap.js"></script> --}}
 
 <script src="product_v.js"></script>
+<script src="script2.js"></script>
 
 </body>
 </html>
