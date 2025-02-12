@@ -447,3 +447,90 @@ INSERT into winterwords1 (title, name, sequence, chapter) values ("ωστε", "~
 
 
 
+=========================
+
+// Hebrew_ch2
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָב", "아버지, 조상 m", "321", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אׅשׇׁה", "여자 f", "322", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "손 f", "323", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "땅, 지구 f", "324", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "아들 m", "325", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "율법 f", "326", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "어머니 f", "327", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "딸 f", "328", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "수말 m", "329", "102");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "남자, 사람 m", "330", "102");
+
+// Hebrew_ch3
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "돌 f", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "집 m", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "나무 m", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "땅 f", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "말(씀), 일 m", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "노래 m", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "진리 f", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "산 m", "101", "103");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "이름 m", "101", "103");
+
+// Hebrew_ch4
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "귀 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "마음 m", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "목소리 m", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "가축, 짐승 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "장소 m", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "발 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "언약 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "도시 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "년, 해 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "날, 시간, 생애 m", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "시간 f", "101", "104");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "104");
+
+// Hebrew_ch5
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "하나님, 신들 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "밤 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "책 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "동산, 정원 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "큰길, 대로 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "바로 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "궁전, 신전 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "왕 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "양, 염소의 무리 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "좋은, 선한 adj", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "모세 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "머리, 정상, 꼭대기 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "소년, 남자아이 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "선지자 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "나쁜, 악한 adj", "101", "105");
+
+// Hebrew_ch6
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "유다", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "영혼, 생명, 사람 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "106");
+
+
+
+
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אָנ", "칼 f", "101", "105");
