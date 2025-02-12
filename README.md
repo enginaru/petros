@@ -13,6 +13,9 @@ git 관련: https://github.com/enginaru/petros
 // github 에서 클론하여, 노트북에서 작업한뒤 push 로 서버에 올릴 것
 // 수정사항은 서버ssh 에서, pull 로 받아서 적용할 것
 
+// 서버 킬 때,콘솔에서  tmux new -s 로 tmux 에서 킬 것(ssh 연결관련)
+// nodemon app.js
+
 
 ================
 DB 관련
