@@ -10,6 +10,10 @@ git 관련: https://github.com/enginaru/petros
 // git add . 
 // git push origin main 
 
+// github 에서 클론하여, 노트북에서 작업한뒤 push 로 서버에 올릴 것
+// 수정사항은 서버ssh 에서, pull 로 받아서 적용할 것
+
+
 ================
 DB 관련
 
