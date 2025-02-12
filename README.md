@@ -4,12 +4,22 @@
 ===============
 git 관련: https://github.com/enginaru/petros
 
-git status //
-git commit -m "커밋관련 코멘트" //
-git log //
-git add . //
-git push origin main //
+// git status 
+// git commit -m "커밋관련 코멘트" 
+// git log 
+// git add . 
+// git push origin main 
 
+================
+DB 관련
+
+// mysql -uroot -p
+// SHOW DABASES;
+// use TESTDB1;
+// SHOW TABLES;
+// select * from winterwords1;
+
+// DB관련 정보는, git 폴더의 sample_test.txt를 참조할 것
 
 ================
 
