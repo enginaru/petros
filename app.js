@@ -37,14 +37,14 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-connection.query('SELECT * FROM winterwords1', (error, rows, fields) => {
-  if (error) throw error;
-  console.log('User info is: ', rows);
-  app.get('/sss', (req, res) => {
-    res.send(rows)
-  })
+// connection.query('SELECT * FROM winterwords1', (error, rows, fields) => {
+//   if (error) throw error;
+//   console.log('User info is: ', rows);
+//   app.get('/sss', (req, res) => {
+//     res.send(rows)
+//   })
 
-});
+// });
 
 
 //connection.end();
