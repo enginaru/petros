@@ -491,21 +491,21 @@ INSERT into winterwords1 (title, name, sequence, chapter) values ("חֶ֫רֶב"
 
 // Hebrew_ch5
 
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "하나님, 신들 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "밤 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "책 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "동산, 정원 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "큰길, 대로 f", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "바로 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "궁전, 신전 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "왕 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "양, 염소의 무리 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "좋은, 선한 adj", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "모세 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "머리, 정상, 꼭대기 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "소년, 남자아이 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "선지자 m", "101", "105");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "나쁜, 악한 adj", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אֱלׄהׅים", "하나님, 신들 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("ֹלַ֫יְלׇה", "밤 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("סֵ֫פֶר", "책 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("גַּן", "동산, 정원 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מְסׅלׇּה", "큰길, 대로 f", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("פַּרְעֹה", "바로 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("הֵיכׇל", "궁전, 신전 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מֶ֫לֶךְ", "왕 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("צֹאן", "양, 염소의 무리 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("טוֺב", "좋은, 선한 adj", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מׄשֶׁה", "모세 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("רֹאשׁ", "머리, 정상, 꼭대기 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("יֶ֫לֶד", "소년, 남자아이 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("נׇבׅיא", "선지자 m", "101", "105");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("רׇע", "나쁜, 악한 adj", "101", "105");
 
 // Hebrew_ch6
 
