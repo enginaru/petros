@@ -1,6 +1,10 @@
 # petros
 반석웹 제작용 깃허브
 
+250212 기준 IP :
+
+http://34.47.113.183:3000/
+
 ===============
 git 관련: https://github.com/enginaru/petros
 
