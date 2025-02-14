@@ -427,6 +427,23 @@ app.get('/Greek_ch26', function(req, res){
 })
 
 
+// Hewbrew Words
+
+// Hewbrew_ch2
+app.get('/Hewbrew_ch2', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch2', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+
 
 hbs.registerHelper('compare', function (v1, operator, v2, options) {
   'use strict';
