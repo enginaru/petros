@@ -573,16 +573,16 @@ INSERT into winterwords1 (title, name, sequence, chapter) values ("חֳרִי", 
 
 // Hebrew_ch10
 
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "또한 adj", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "기업, 소유, 유산 f", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "제단 m", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "피 m", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "이와같이, 여기에, 따라서", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "공의, 규례, 판단 m", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "제사장 m", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "이제, 지금, 결국", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "그러므로, 따라서", "101", "110");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "리브가", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("זַּם", "또한 adj", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("נַחֲלָה", "기업, 소유, 유산 f", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מִזְבֵּחַ", "제단 m", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("דׇּם", "피 m", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כֹּה", "이와같이, 여기에, 따라서", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מִשְׁפׇּט", "공의, 규례, 판단 m", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כֹּהֵן", "제사장 m", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("עַתּה", "이제, 지금, 결국", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כֵּן", "그러므로, 따라서", "101", "110");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("רִבְקׇה", "리브가", "101", "110");
 
 // Hebrew_ch11
 
