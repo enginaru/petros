@@ -715,17 +715,17 @@ INSERT into winterwords1 (title, name, sequence, chapter) values ("שׇׁמַר"
 
 // Hebrew_ch20
 
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "여호사밧", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "일, 직업", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "맹세하다(니팔)", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "요람", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "찾다, 발견하다", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "잊어버리다", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "가나안사람", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "보다", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "...하지 않도록", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "음모, 반역", "101", "120");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "하나(one)", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("יְהוֺשָׁפָט", "여호사밧", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מְלָאכׇה", "일, 직업", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("שׇׁבַע", "맹세하다(니팔)", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("יוֺרׇם", "요람", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מׇצׇא", "찾다, 발견하다", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("שׇׁכַח", "잊어버리다", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כּנַעֲנִי", "가나안사람", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("רׇאׇה", "보다", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("פֶּן־", "...하지 않도록", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("קֶשֶׁר", "음모, 반역", "101", "120");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("אֶחׇד", "하나(one)", "101", "120");
 
 // Hebrew_ch21
 
