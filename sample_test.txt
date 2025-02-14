@@ -632,16 +632,16 @@ INSERT into winterwords1 (title, name, sequence, chapter) values ("קׇטֹן", 
 
 // Hebrew_ch14
 
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "씨, 후손 m", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "세상, 세계 f", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "항상", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "쓰다, 기록하다", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "총회, 회중", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "계명 f", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "자르다, 언약을 맺다", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "멍에", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "붓다, 쏟다", "101", "114");
-INSERT into winterwords1 (title, name, sequence, chapter) values ("", "계명들(pl)", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("זֶרַע", "씨, 후손 m", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("חֵּבֵל", "세상, 세계 f", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("חׇּמִיד", "항상", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כָּחַב", "쓰다, 기록하다", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("קָהָל", "총회, 회중", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מִצְוָה", "계명 f", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("כׇּרַת", "자르다, 언약을 맺다", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("עֹל", "멍에", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("שׇׁפַךְ", "붓다, 쏟다", "101", "114");
+INSERT into winterwords1 (title, name, sequence, chapter) values ("מִצְוֺת", "계명들(pl)", "101", "114");
 
 // Hebrew_ch15
 
