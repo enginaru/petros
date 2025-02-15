@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>반석웹</title>
+  {{!-- <link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css"/> --}}
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+
+   
+<div class="container">
+    <h2>성성경히브리어문법(이희성) ch18 단어</h2>
+    
+    {{! -- <button id="checkWords">단어체크</button> --}}
+
+    <table class="table table-striped" id="mytable">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>title</th>
+            <th>name</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each results}}
+	    {{#compare chapter '=='118 }}
+            <tr>
+                <td>{{ id }}</td>
+                <td>{{ title }}</td>
+                <td>{{ name }}</td>
+            </tr>
+	    {{/compare}}
+
+        {{/each}}
+        </tbody>
+    </table>
+
+    <h3>단어확인</h3>
+
+    <table class="table table-striped" id="mytable2" style="display: block;">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>title</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each results}}
+	    {{#compare chapter '=='118 }}
+            <tr>
+                <td>{{ id }}</td>
+                <td>{{ title }}</td>
+            </tr>
+	    {{/compare}}
+
+        {{/each}}
+        </tbody>
+    </table>
+
+
+</div> 
+
+
+{{!-- <script src="../public/js/jquery-3.3.1.min.js"></script>
+<script src="../public/js/bootstrap.js"></script> --}}
+
+<script src="product_v.js"></script>
+
+{{!-- <script src="script2.js"></script> --}}
+
+</body>
+</html>

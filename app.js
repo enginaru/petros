@@ -442,6 +442,337 @@ app.get('/Hewbrew_ch2', function(req, res){
   });
 })
 
+// Hewbrew_ch3
+app.get('/Hewbrew_ch3', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch3', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch4
+app.get('/Hewbrew_ch4', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch4', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch5
+app.get('/Hewbrew_ch5', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch5', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch6
+app.get('/Hewbrew_ch6', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch6', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch7
+app.get('/Hewbrew_ch7', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch7', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch8
+app.get('/Hewbrew_ch8', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch8', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch9
+app.get('/Hewbrew_ch9', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch9', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch10
+app.get('/Hewbrew_ch10', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch10', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch11
+app.get('/Hewbrew_ch11', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch11', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch12
+app.get('/Hewbrew_ch12', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch12', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch13
+app.get('/Hewbrew_ch13', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch13', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch14
+app.get('/Hewbrew_ch14', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch14', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch15
+app.get('/Hewbrew_ch15', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch15', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch16
+app.get('/Hewbrew_ch16', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch16', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch17
+app.get('/Hewbrew_ch17', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch17', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch18
+app.get('/Hewbrew_ch18', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch18', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch19
+app.get('/Hewbrew_ch19', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch19', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch20
+app.get('/Hewbrew_ch20', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch20', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch21
+app.get('/Hewbrew_ch21', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch21', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch22
+app.get('/Hewbrew_ch22', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch22', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch20
+app.get('/Hewbrew_ch23', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch23', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch24
+app.get('/Hewbrew_ch24', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch24', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch25
+app.get('/Hewbrew_ch25', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch25', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch26
+app.get('/Hewbrew_ch26', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch26', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+// Hewbrew_ch27
+app.get('/Hewbrew_ch27', function(req, res){
+  let sql = "SELECT * FROM winterwords1";
+  let query = connection.query(sql, (err, results) => {
+      if (err) throw err;
+
+      res.render('Hewbrew_ch27', {
+          results: results,
+          stuff : stuff
+      });
+  });
+})
+
+
+
+
+
+
+
 
 
 
